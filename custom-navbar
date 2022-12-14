@@ -1,0 +1,282 @@
+        <nav class="navbar bg-light justify-content-xxl-center">
+            <img src="./assets/images/logo/logo.png" alt="logo">
+            <ul
+                class="navbar nav flex-md-grow-1 flex-lg-grow-0 justify-content-md-evenly justify-content-xl-center px-md-1  mx-xl-4">
+                <li class="nav-item d-none d-xxl-block mx-xl-3">
+                    <a href="#">Home</a>
+                </li>
+                <li class="nav-item d-none d-md-block mx-lg-3 position-relative my-2">
+                    <a id="coupon-theme-nav" class="coupon-theme nav-anchor" href="#">Coupon Theme <img
+                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
+                    </a>
+                    <!-- Dropdown -->
+                    <div class="position-absolute bg-transparent coupon-theme-dropdown dropdown-menu d-none" style="top:10px">
+                        <div class=" d-flex justify-content-between bg-light py-3 rounded-4" 
+                            style="width: 500px; margin-top: 40px;">
+                            <ul class="px-0">
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">layouts
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Homepage styles
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Mobile
+                                        Application
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Cashback Plugin
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Coupon Feeds
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Preset Colors
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Widgets
+                                    </a>
+                                </li>
+                            </ul>
+                            <ul class="px-0">
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Customization
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Web Push
+                                        Notification
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Printable
+                                        Vouchers
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Multi Location
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Social media
+                                        optimized
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">HD Graphics
+                                    </a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                            src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Other Features
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </li>
+                <li class="nav-item d-none d-md-block mx-lg-3 position-relative my-2">
+                    <a class="nav-anchor" href="#">Comparison Plugin <img src="./assets/images/icons/down-arrow.svg"
+                            alt="Down Arrow">
+                    </a>
+                    <!-- Dropdown -->
+                    <div class="position-absolute bg-transparent coupon-theme-dropdown dropdown-menu d-none" style="top:10px">
+                        <div class=" d-flex justify-content-between bg-light py-3 rounded-4" 
+                            style="width: 500px; margin-top: 40px;">
+                        <ul class="px-0">
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Layouts
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Homepage styles
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Android Application
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Cashback Plugin
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">HD Graphics
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="px-0">
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Preset Colors
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Customization
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Social Media
+                                    Optimized
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Widgets
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Other Featrues
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item d-none d-md-block mx-lg-3 position-relative my-2">
+                    <a class="nav-anchor" href="#">Cashback Plugin <img src="./assets/images/icons/down-arrow.svg"
+                            alt="Down Arrow">
+                    </a>
+                    <!-- Dropdown -->
+                    <div class="position-absolute bg-transparent coupon-theme-dropdown dropdown-menu d-none" style="top:10px">
+
+                        <div class=" d-flex justify-content-between bg-light py-3 rounded-4" 
+                        style="width: 500px; margin-top: 40px;">
+                        <ul class="px-0">
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">How it works
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Reports
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Affiliate Networks
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Rewards & bonuses
+                                </a>
+                            </li>
+                        </ul>
+                        <ul class="px-0">
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Insights
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Cashback Formulae
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Payout Management
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Login Prompts
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item d-none d-xxl-block mx-xl-3 position-relative my-2">
+                    <a class="nav-anchor" href="#">Add Ons <img src="./assets/images/icons/down-arrow.svg"
+                            alt="Down Arrow"></a>
+                    <!-- Dropdown -->
+                    <div class="position-absolute top-5rem d-flex d-none justify-content-between dropdown-menu"
+                        style="width: 300px; ">
+                        <ul class="px-0">
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Browser Extension
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Android Application
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">iOS Appplication
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item d-none d-xxl-block mx-xl-3 ">
+                    <a class="nav-anchor" href="#">Demo <img src="./assets/images/icons/down-arrow.svg"
+                            alt="Down Arrow">
+                    </a>
+                    <!-- Dropdown -->
+                    <div class="position-absolute top-5rem d-flex justify-content-between dropdown-menu"
+                        style="width: 300px; ">
+                        <ul class="px-0">
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Live Demo
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Backend Screenshot
+                                </a>
+                            </li>
+                            <li class="dropdown-item">
+                                <a class="nav-anchor" href="#"><img class="mx-2 me-3"
+                                        src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">Youtube Tutorials
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li class="nav-item d-none d-xxl-block mx-xl-3">
+                    <a href="#">Docs</a>
+                </li>
+                <li class="nav-item d-none d-xxl-block mx-xl-3">
+                    <a class="nav-anchor" href="#"> <img class="mx-1" src="./assets/images/icons/login.svg" alt="Login">
+                        Login</a>
+                </li>
+            </ul>
+            <div>
+                <button class="btn btn-primary mx-3 mx-xxl-0"> <img class="me-1"
+                        src="./assets/images/icons/buy-now-icon.svg" alt="buy-now" width="14px"> Buy Now</button>
+                <img class="d-xxl-none" type="button" src="./assets/images/icons/hamburger-icon.svg"
+                    alt="hamburger icon">
+            </div>
+        </nav>
