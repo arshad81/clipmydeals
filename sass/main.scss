@@ -108,18 +108,18 @@ $theme-colors: map-merge($theme-colors , ("custom-gray": #c5c5c5));
     transition: filter 0.5s linear;
 }
 
-// .nav-item:hover>a>img,
-// .nav-item:hover>a {
-//     filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(3097%) hue-rotate(4deg) brightness(101%) contrast(102%);
-//     transform: rotate(-180deg);
-//     transition: transform 0.3s linear;
-//     color: $primary;
-// }
+.nav-item:hover>a>img,
+.nav-item:hover>a {
+    filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(3097%) hue-rotate(4deg) brightness(101%) contrast(102%);
+    transform: rotate(-180deg);
+    transition: transform 0.3s linear;
+    color: $primary;
+}
 
-// .nav-item:hover>.coupon-theme-dropdown {
-//     display: block !important;
-// }
+.nav-item:hover>.coupon-theme-dropdown {
+    display: block !important;
+}
 
-// .coupon-theme-dropdown:hover {
-//     display: block !important;
-// }
+.coupon-theme-dropdown:hover {
+    display: block !important;
+}
