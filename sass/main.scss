@@ -53,6 +53,8 @@ $h2-font-size: 2rem;
 $h3-font-size: 1.5rem;
 $h4-font-size: 1.125rem;
 $h6-font-size: 0.5rem;
+$h6-font-size: 2.2vw;
+
 
 
 /*Font*/
@@ -84,8 +86,8 @@ $custom-colors: (
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-$position-values: map-merge($position-values, (5rem: 0rem, 1rem:7rem));
-$spacers: map-merge($spacers, (10p: 6%));
+$position-values: map-merge($position-values, (5rem: 0rem, 1rem:7rem,9rem:9rem));
+$spacers: map-merge($spacers, (6p: 6%,10p: 1%));
 $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
 
 
@@ -159,7 +161,9 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
     -webkit-backdrop-filter: blur(10.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    width: 9rem;
+    // width: 9rem;
+    width: 39vw;
+    max-width: 20rem;
 }
 
 .carousel-indicators>[data-bs-target] {
