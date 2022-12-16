@@ -30,7 +30,7 @@ $font-size-base: 0.9rem;
 
 /*Button Customization*/
 
-$btn-border-width: 2px;
+$btn-border-width: 1px;
 
 $btn-font-weight: 600;
 
@@ -85,6 +85,7 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 $position-values: map-merge($position-values, (5rem: 0rem, 1rem:7rem));
+$spacers: map-merge($spacers, (10p: 6%));
 $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
 
 
@@ -167,4 +168,10 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
 }
 .carousel-indicators>.active{
     width: 1.5rem;
+}
+.watch-btn:hover{
+    color: $primary;
+}
+.watch-btn:hover>img{
+    filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(3097%) hue-rotate(4deg) brightness(101%) contrast(102%);
 }
