@@ -5,10 +5,12 @@ $secondary: #F28A1D;
 $dark: #212427;
 $light: #F5F5F7;
 $gray-400: #c5c5c5;
+$white: #ffffff;
 $color-contrast-light: $dark;
 $headings-color: $dark;
 $body-color: #6a6a6a;
 $transparent: transparent;
+
 
 $dropdown-bg: $light;
 $dropdown-border-radius: 12px;
@@ -19,7 +21,7 @@ $dropdown-link-hover-bg: $light;
 
 $dropdown-item-padding-x: 1.5rem;
 
-$offcanvas-horizontal-width: 15rem;
+$offcanvas-horizontal-width: 21rem;
 $offcanvas-bg-color: $dark;
 
 
@@ -45,10 +47,13 @@ $btn-hover-border-shade-amount: 0;
 
 $headings-font-weight: 600;
 
-$h1-font-size: 3.5rem;
+// $h1-font-size: 3.5rem;
+$h1-font-size: 6vw;
 $h2-font-size: 2rem;
 $h3-font-size: 1.5rem;
 $h4-font-size: 1.125rem;
+$h6-font-size: 0.5rem;
+
 
 /*Font*/
 $font-family-base: "Poppins";
@@ -62,13 +67,26 @@ $link-color: $body-color;
 $link-decoration: none;
 $link-hover-color: $primary;
 
+/*Carousel*/
+$carousel-indicator-active-bg: $primary;
+$carousel-indicator-width: 14px;
+$carousel-indicator-height: 8px;
+
+
 /*Adding New Custom Values inside map*/
 
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
-$position-values: map-merge($position-values, (5rem: 0rem, ));
-$theme-colors: map-merge($theme-colors , ("custom-gray": #c5c5c5));
+$custom-colors: (
+    "custom-gray": #c5c5c5,
+    "custom-white": #ffffff
+);
+$theme-colors: map-merge($theme-colors, $custom-colors);
+
+$position-values: map-merge($position-values, (5rem: 0rem, 1rem:7rem));
+$font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
+
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 
@@ -95,17 +113,22 @@ $theme-colors: map-merge($theme-colors , ("custom-gray": #c5c5c5));
 .h3 {
     font-weight: 700;
 }
-.home-icon{
+
+.home-icon {
     filter: brightness(0) saturate(100%) invert(78%) sepia(0%) saturate(95%) hue-rotate(91deg) brightness(90%) contrast(87%);
 }
-.sidebar-li:hover > a{
+
+.sidebar-li:hover>a {
     color: $primary !important;
     transition: color 0.5s linear !important;
 
 }
-.sidebar-li:hover > a > img{
+
+.sidebar-li:hover>a>img,
+.dropdown-item:hover>a>img,
+.dropdown-item:hover>a {
     filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(3097%) hue-rotate(4deg) brightness(101%) contrast(102%);
-    transition: filter 0.5s linear;
+    transition: filter 0.2s linear;
 }
 
 .nav-item:hover>a>img,
@@ -116,10 +139,32 @@ $theme-colors: map-merge($theme-colors , ("custom-gray": #c5c5c5));
     color: $primary;
 }
 
-.nav-item:hover>.coupon-theme-dropdown {
+.nav-item:hover>.dropdown-menu {
     display: block !important;
 }
 
-.coupon-theme-dropdown:hover {
+.dropdown-menu:hover {
     display: block !important;
+}
+
+.carousel-text {
+    width: 80vw;
+}
+
+.glassmorphism-text-div {
+    background: rgba(255, 255, 255, 0.3);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(10.5px);
+    -webkit-backdrop-filter: blur(10.5px);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 9rem;
+}
+
+.carousel-indicators>[data-bs-target] {
+    border: solid 1px transparent;
+    border-radius: 12px;
+}
+.carousel-indicators>.active{
+    width: 1.5rem;
 }

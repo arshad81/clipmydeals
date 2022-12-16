@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+      }
+    </style>
+  </defs>
+  <g id="Group_1480" data-name="Group 1480">
+    <path id="Path_1740" data-name="Path 1740" class="cls-2" d="m16.01,47.18l14.82-11.11h12.7c2.04-.01,3.69-1.67,3.69-3.71V6.29c0-2.05-1.66-3.71-3.71-3.71H6.38c-2.05,0-3.71,1.66-3.71,3.71v26.07c0,2.05,1.66,3.71,3.71,3.71h7.65v10.12c0,.68.55,1.24,1.24,1.24.27,0,.53-.09.74-.25h0Z"/>
+    <circle id="Ellipse_51" data-name="Ellipse 51" class="cls-1" cx="15.04" cy="19.9" r="3.71"/>
+    <circle id="Ellipse_53" data-name="Ellipse 53" class="cls-1" cx="24.95" cy="19.9" r="3.71"/>
+    <circle id="Ellipse_55" data-name="Ellipse 55" class="cls-1" cx="34.85" cy="19.9" r="3.71"/>
+  </g>
+</svg>
