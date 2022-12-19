@@ -12,12 +12,11 @@
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 <body>
-    <header class="position-relative" style="position: relative;">
-        <nav class="navbar bg-light justify-content-xxl-evenly position-relative">
-            <img src="./assets/images/logo/logo.png" alt="logo">
-
+    <header class="position-relative bg-light">
+        <nav class="navbar position-relative w-100 justify-content-xxl-between mx-auto py-2 w-xxl-93">
+            <img src="./assets/images/logo/logo.png" class=" mx-xl-2 mx-xxl-0" alt="logo">
             <!-- Navbar -->
-            <div class=" flex-md-grow-1 flex-lg-grow-0" id="navbarSupportedContent">
+            <div class=" flex-md-grow-1 flex-lg-grow-0 " id="navbarSupportedContent">
                 <ul class="navbar nav flex-md-grow-0 justify-content-md-evenly justify-content-xl-center px-md-1  mx-xl-4">
                     <li class="nav-item d-none d-xxl-block mx-xl-3">
                         <a href="#">Home</a>
@@ -276,8 +275,8 @@
             </div>
             <!--  -->
             <!-- Buy Now Icon and Sidebar -->
-            <div>
-                <button class="btn btn-primary mx-4"> <img class="me-1" src="./assets/images/icons/buy-now-icon.svg" alt="buy-now" width="14px"> Buy Now</button>
+            <div class=" mx-xxl-2 mx-xxl-0">
+                <button class="btn btn-primary mx-4 mx-xxl-0"> <img class="me-1" src="./assets/images/icons/buy-now-icon.svg" alt="buy-now" width="14px"> Buy Now</button>
                 <img class="d-xxl-none" src="./assets/images/icons/hamburger-icon.svg" type="button" data-bs-toggle="offcanvas" data-bs-target="#sidebar-div" aria-controls="sidebar-div">
                 <div class="offcanvas offcanvas-end " tabindex="-1" id="sidebar-div" aria-labelledby="offcanvasRightLabel">
                     <div class="offcanvas-header d-block">

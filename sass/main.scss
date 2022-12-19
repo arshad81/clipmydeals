@@ -51,22 +51,17 @@ $rfs-factor:75;
 $headings-font-weight: 600;
 
 $h1-font-size: 2.2rem;
-// $h1-font-size: 50px;
-// $h1-font-size: 6vw;
-// $h1-font-size: 0.6rem;
 $h2-font-size: 2rem;
 $h3-font-size: 1.5rem;
 $h4-font-size: 1.125rem;
 $h6-font-size: 0.8rem;
-
-
 
 /*Font*/
 $font-family-base: "Poppins";
 
 /*Navbar */
 $navbar-padding-x: 1rem;
-$navbar-padding-y: 0.8rem;
+$navbar-padding-y: 0rem;
 
 /*Anchor Links*/
 $link-color: $body-color;
@@ -86,6 +81,7 @@ $rfs-base-value:0px;
 @import "../node_modules/bootstrap/scss/functions";
 @import "../node_modules/bootstrap/scss/variables";
 
+
 $custom-colors: (
     "custom-gray": #c5c5c5,
     "custom-white": #ffffff
@@ -93,12 +89,55 @@ $custom-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 $position-values: map-merge($position-values, (5rem: 0rem, 1rem:7rem,9rem:9rem));
-$spacers: map-merge($spacers, (6p: 6%,10p: 1%));
-$font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
+$spacers: map-merge($spacers, (6p: 6%,10p: 10%,90:90%));
+$font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75,"xl":1.2rem));
+
+@import "../node_modules/bootstrap/scss/maps";
+@import "../node_modules/bootstrap/scss/utilities";
+
+$utilities: map-merge(
+  $utilities, (
+    "width": map-merge(
+      map-get($utilities, "width"),
+      ( responsive: true ),
+    ),
+    "max-width": map-merge(
+      map-get($utilities, "max-width"),
+      ( responsive: true ),
+    ),
+    "font-size": map-merge(
+      map-get($utilities, "font-size"),
+      ( responsive: true ),
+    ),
+  )
+);
+
+$utilities: map-merge(
+  $utilities,
+  (
+    "width": map-merge(
+      map-get($utilities, "width"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "width"), "values"),
+          (93: 93%,85: 85%),
+        ),
+      ),
+    ),
+    "max-width": map-merge(
+      map-get($utilities, "max-width"),
+      (
+        values: map-merge(
+          map-get(map-get($utilities, "max-width"), "values"),
+          (30rem:30rem,46rem: 46rem),
+        ),
+      ),
+    )
+  )
+);
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
-
 
 
 /*Custom CSS*/
@@ -156,10 +195,10 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
     display: block !important;
 }
 
-.carousel-text {
-    width: 85%;
-    max-width: 30rem;
-}
+// .carousel-text {
+//     width: 85%;
+//     max-width: 30rem;
+// }
 
 .glassmorphism-text-div {
     background: rgba(255, 255, 255, 0.3);
@@ -170,6 +209,9 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
     border: 1px solid rgba(255, 255, 255, 0.18);
     width: 40%;
     max-width: 20rem;
+    @media screen and (min-width:576px) {
+        width: 20rem;
+    }
 }
 
 .carousel-indicators>[data-bs-target] {
@@ -184,7 +226,4 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
 }
 .outline-custom-btn:hover>img{
     filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(3097%) hue-rotate(4deg) brightness(101%) contrast(102%);
-}
-// .title{
-//     @include font-size(2.2rem);
-// }
+}   
