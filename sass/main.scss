@@ -43,17 +43,21 @@ $input-btn-font-size: 12px;
 $btn-hover-bg-shade-amount: 0;
 $btn-hover-border-shade-amount: 0;
 
+$rfs-breakpoint:576px;
+$rfs-factor:75;
+
 /*Header Customization*/
 
 $headings-font-weight: 600;
 
-// $h1-font-size: 3.5rem;
-$h1-font-size: 6vw;
+$h1-font-size: 2.2rem;
+// $h1-font-size: 50px;
+// $h1-font-size: 6vw;
+// $h1-font-size: 0.6rem;
 $h2-font-size: 2rem;
 $h3-font-size: 1.5rem;
 $h4-font-size: 1.125rem;
-$h6-font-size: 0.5rem;
-$h6-font-size: 2.2vw;
+$h6-font-size: 0.8rem;
 
 
 
@@ -73,6 +77,8 @@ $link-hover-color: $primary;
 $carousel-indicator-active-bg: $primary;
 $carousel-indicator-width: 14px;
 $carousel-indicator-height: 8px;
+
+$rfs-base-value:0px;
 
 
 /*Adding New Custom Values inside map*/
@@ -151,7 +157,8 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
 }
 
 .carousel-text {
-    width: 80vw;
+    width: 85%;
+    max-width: 30rem;
 }
 
 .glassmorphism-text-div {
@@ -161,8 +168,7 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
     -webkit-backdrop-filter: blur(10.5px);
     border-radius: 10px;
     border: 1px solid rgba(255, 255, 255, 0.18);
-    // width: 9rem;
-    width: 39vw;
+    width: 40%;
     max-width: 20rem;
 }
 
@@ -173,9 +179,12 @@ $font-sizes: map-merge($font-sizes , ("7": $font-size-base * 0.75));
 .carousel-indicators>.active{
     width: 1.5rem;
 }
-.watch-btn:hover{
+.outline-custom-btn:hover{
     color: $primary;
 }
-.watch-btn:hover>img{
+.outline-custom-btn:hover>img{
     filter: brightness(0) saturate(100%) invert(69%) sepia(49%) saturate(3097%) hue-rotate(4deg) brightness(101%) contrast(102%);
 }
+// .title{
+//     @include font-size(2.2rem);
+// }
