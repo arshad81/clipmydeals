@@ -11,9 +11,9 @@
 </head>
 <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
-<body>
+<body class="bg-custom-off-white ">
     <header class="position-relative bg-light">
-        <nav class="navbar position-relative w-100 justify-content-xxl-between mx-auto py-2 w-xxl-93">
+        <nav class="navbar position-relative w-100 justify-content-xxl-center mx-auto py-2 w-xxl-93">
             <img src="./assets/images/logo/logo.png" class=" mx-xl-2 mx-xxl-0" alt="logo">
             <!-- Navbar -->
             <div class=" flex-md-grow-1 flex-lg-grow-0 " id="navbarSupportedContent">
