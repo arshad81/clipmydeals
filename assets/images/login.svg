@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="251" height="202" viewBox="0 0 251 202">
+  <defs>
+    <filter id="Rectangle_331" x="0" y="0" width="251" height="202" filterUnits="userSpaceOnUse">
+      <feOffset dy="4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_904" data-name="Group 904" transform="translate(-55 -2487)">
+    <g transform="matrix(1, 0, 0, 1, 55, 2487)" filter="url(#Rectangle_331)">
+      <rect id="Rectangle_331-2" data-name="Rectangle 331" width="215" height="166" transform="translate(18 14)" fill="#fff"/>
+    </g>
+    <rect id="Rectangle_332" data-name="Rectangle 332" width="215" height="58" transform="translate(73 2501)" fill="#f28a1d"/>
+    <text id="Join_us_start_earning_cash_back" data-name="Join us start earning cash back" transform="translate(181 2530)" fill="#fff" font-size="7" font-family="Poppins-Bold, Poppins" font-weight="700"><tspan x="-56" y="0">Join us start earning cash back</tspan></text>
+    <text id="At_over_2500_stores_Plus_get_a_10_welcome_bonus" data-name="At over 2500 stores, Plus get a $10 welcome bonus" transform="translate(109 2535)" fill="#fff" font-size="5" font-family="Poppins-Regular, Poppins" opacity="0.5"><tspan x="-62" y="5">At over 2500 stores, Plus get a $10 welcome bonus</tspan></text>
+    <rect id="Rectangle_333" data-name="Rectangle 333" width="163" height="16" rx="8" transform="translate(97.999 2570)" fill="#ebebeb" opacity="0.8"/>
+    <text id="Username" transform="translate(106 2581)" fill="#1d2023" font-size="8" font-family="Poppins-Regular, Poppins" opacity="0.5"><tspan x="0" y="0">Username</tspan></text>
+    <rect id="Rectangle_333-2" data-name="Rectangle 333" width="163" height="16" rx="8" transform="translate(98 2590)" fill="#ebebeb" opacity="0.8"/>
+    <text id="Password" transform="translate(106 2601)" fill="#1d2023" font-size="8" font-family="Poppins-Regular, Poppins" opacity="0.5"><tspan x="0" y="0">Password</tspan></text>
+    <rect id="Rectangle_333-3" data-name="Rectangle 333" width="71" height="19" rx="9.5" transform="translate(145 2625)" fill="#f9ab00"/>
+    <text id="Password-2" data-name="Password" transform="translate(161 2637)" fill="#212427" font-size="8" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Password</tspan></text>
+    <text id="Login_Register" data-name="Login / Register" transform="translate(158 2511)" fill="#fff" font-size="6" font-family="Poppins-Regular, Poppins" opacity="0.5"><tspan x="0" y="0">Login / Register</tspan></text>
+    <g id="Rectangle_334" data-name="Rectangle 334" transform="translate(98 2612)" fill="#fff" stroke="#707070" stroke-width="0.5">
+      <rect width="6" height="6" rx="3" stroke="none"/>
+      <rect x="0.25" y="0.25" width="5.5" height="5.5" rx="2.75" fill="none"/>
+    </g>
+    <text id="Remember_Me" data-name="Remember Me" transform="translate(107 2616)" fill="#6a6a6a" font-size="5" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Remember Me</tspan></text>
+    <text id="Forgot_password_" data-name="Forgot password?" transform="translate(217 2616)" fill="#6a6a6a" font-size="5" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Forgot password?</tspan></text>
+    <text id="Don_t_have_an_account_Register_Now" data-name="Don&apos;t have an account? Register Now" transform="translate(144 2656)" fill="#6a6a6a" font-size="4" font-family="Poppins-Regular, Poppins"><tspan x="0" y="0">Don&apos;t have an account? </tspan><tspan y="0" fill="#f28a1d">Register Now</tspan></text>
+  </g>
+</svg>

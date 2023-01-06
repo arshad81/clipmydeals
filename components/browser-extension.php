@@ -1,0 +1,2 @@
+    <p class="h5 fs-md-3 text-center pt-5">Browser Extension</p>
+    <p class="fw-light h6 fs-md-5 w-md-75 w-lg-50 mx-auto text-center pb-lg-3">Maximise affilaite earnings whenever your users shop using Chrome, Edge, Firefox or Opera</p>
