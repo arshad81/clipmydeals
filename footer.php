@@ -46,9 +46,13 @@
                 <p class="text-light mb-3 h5">Signup for clipmydeals newsletter</p>
                 <p class="h6 text-body w-75">Enter your email ID for further information related to clipmydeals</p>
 
-                <div class="row mt-3 mx-auto">
-                    <input type="text" class="col-8 ps-4 rounded-5 bg-custom-gray border-0 py-3 opacity-50 position-relative zindex-2" placeholder="Your email address" aria-label="Your email address" aria-describedby="button-addon2">
-                    <button class="btn btn-secondary col-4 ms-n5 position-relative zindex-3" >Button</button>
+                <div class="row mt-3 mx-0 col-10">
+                    <!-- <input type="text" class="col-8 ps-4 rounded-5 bg-custom-gray border-0 py-2 opacity-50 position-relative zindex-2" placeholder="Your email address" aria-label="Your email address" aria-describedby="button-addon2">
+                    <button class="btn btn-secondary col-4 ms-n5 position-relative zindex-3" >Submit</button> -->
+                    <div class="input-group px-0">
+                        <input type="text" class="form-control " placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">Button</button>
+                    </div>
                 </div>
 
             </div>
@@ -68,12 +72,6 @@
             </ul>
         </div>
     </div>
-    <!-- <ul class="col-sm-6 d-flex m-0 justify-content-between ps-2">
-            <li class="h6 m-0 text-light mx-2">Help</li>
-            <li class="h6 m-0 text-light mx-2">Terms & Conditions</li>
-            <li class="h6 m-0 text-light mx-2">Legal</li>
-            <li class="h6 m-0 text-light mx-2">Contact</li>
-        </ul> -->
 </div>
 </div>
 </body>

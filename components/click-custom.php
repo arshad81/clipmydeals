@@ -1,14 +1,14 @@
-<div class="shadow shadow-md-none rounded-4">
+<div class="shadow shadow-md-none rounded-4" id="customization">
     <div class="row align-items-center justify-content-around justify-content-lg-between my-5">
 
         <div class="col-12 col-sm-7 col-md-6 mx-auto">
             <div id="click-custom" class="carousel slide carousel-fade position-relative" data-bs-ride="carousel">
                 <section class="carousel-inner ">
                     <div class="carousel-item active ">
-                        <img src="../assets/images/coupon-themes/images/mobile/Mobile-view-card-1-click-1.png" width="326" height="144" srcset=" ./assets/images/coupon-themes/images/desktop/Web-view-card-1-Click-Customization-1.png 1400w, ./assets/images/coupon-themes/images/mobile/Mobile-view-card-1-click-1.png 768w" width="1920" height="875" class="w-100  h-auto" alt="...">
+                        <img src="./assets/images/coupon-themes/images/1-click-customization-2-min.png" width="326" height="144"  class="w-100  h-auto" alt="...">
                     </div>
                     <div class="carousel-item ">
-                        <img src="../assets/images/coupon-themes/images/desktop/Web-view-card-1-Click-Customization-1.png" width="326" height="144" srcset=" ./assets/images/coupon-themes/images/desktop/Web-view-card-1-Click-Customization-2.png 1400w, ./assets/images/coupon-themes/images/mobile/Mobile-view-card-1-click-2.png 768w" width="1920" height="875" class="w-100  h-auto" alt="...">
+                        <img src="./assets/images/coupon-themes/images/1-click-customization-3-min.png" width="326" height="144"  class="w-100  h-auto" alt="...">
                     </div>
 
                     <div class="carousel-indicators ">
@@ -20,7 +20,7 @@
         </div>
         
         <div class="col-12 col-sm-10 col-lg-6 mt-md-3 mt-lg-0">
-            <div class="card w-100  shadow-md-lg rounded-3 px-4 py-md-3 ">
+            <div class="card w-100  shadow-md rounded-3 px-4 py-md-3 py-lg-5 ">
                 <div class="card-body mx-auto px-2">
                     <p class="card-title h6 fs-md-3">1-Click Customization. No Coding Required.</p>
                     <ul class="px-0">

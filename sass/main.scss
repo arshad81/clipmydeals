@@ -10,6 +10,7 @@ $color-contrast-light: $dark;
 $headings-color: $dark;
 $body-color: #6a6a6a;
 $transparent: transparent;
+$text-custom-gray-300: #9f9f9f;
 
 
 $dropdown-bg: $light;
@@ -17,9 +18,9 @@ $dropdown-border-radius: 12px;
 $dropdown-border-color: $transparent;
 $dropdown-padding-y: 1.5rem;
 $dropdown-item-padding-x: 0rem;
-
 $dropdown-link-hover-bg: $light;
 
+$component-active-bg: transparent;
 
 $offcanvas-horizontal-width: 21rem;
 $offcanvas-bg-color: $dark;
@@ -54,8 +55,16 @@ $h4-font-size: 0.625rem;
 $h5-font-size: 1rem;
 $h6-font-size: 0.75rem;
 
+/*List Group*/
+
+$list-group-border-color: $transparent;
+$list-group-color: $text-custom-gray-300;
+$list-group-action-hover-color: $primary;
+$list-group-active-color: $primary !important;
+$list-group-active-border-color: $transparent;
+
 /*Font*/
-$font-family-base: "Poppins";
+$font-family-base: "Poppins, sans-serif";
 
 /*Navbar */
 $navbar-padding-x: 1rem;
@@ -86,6 +95,11 @@ $accordion-bg: $light;
 $accordion-button-color: $dark;
 $accordion-button-focus-border-color: green;
 $accordion-border-radius: 12px;
+
+$input-bg: $dark;
+$input-border-radius:16px;
+$input-color: white;
+
 /*Adding New Custom Values inside map*/
 
 @import "../node_modules/bootstrap/scss/functions";
@@ -98,7 +112,8 @@ $custom-colors: (
   "custom-dark-gray": #6a6a6a,
   "custom-pink": #FCF2EB,
   "custom-off-white":#fefefe,
-  'custom-gray-200':#969696
+  'custom-gray-200':#969696,
+  "custom-gray-300":#9f9f9f,
 );
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
@@ -129,19 +144,7 @@ $utilities: map-merge($utilities, ("width": map-merge(map-get($utilities, "width
       ),
     ));
 
-$utilities: map-merge($utilities,
-    ("width": map-merge(map-get($utilities, "width"),
-        (values: map-merge(map-get(map-get($utilities, "width"), "values"),
-            (40:40%, 45:49%, 60: 60%, 70:70%, 85: 85%, 93: 93%, 90: 90%, 95: 98%, 90px:90px, 80rem:80rem, 93vw:93vw),
-          ),
-        ),
-      ),
-      "max-width": map-merge(map-get($utilities, "max-width"),
-        (values: map-merge(map-get(map-get($utilities, "max-width"), "values"),
-            (9rem:9rem, 12rem:12rem, 15rem:15rem, 16rem:16rem, 20rem:20rem, 30rem:30rem, 33rem:33rem, 40rem:40rem, 46rem: 46rem, 59rem:59rem),
-          ),
-        ),
-      )));
+
 
 
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
@@ -153,13 +156,15 @@ $utilities: map-merge($utilities,
   opacity: 1;
 }
 
-.item {
+.item,
+.coupon-theme-slider {
   position: relative;
   overflow: hidden;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
 }
 
-.item:after {
+.item:after,
+.coupon-theme-slider:after {
   content: '';
   display: block;
   position: absolute;
@@ -170,13 +175,16 @@ $utilities: map-merge($utilities,
 }
 
 .item--first:after {
-  // background-image: linear-gradient(to right, rgb(6, 15, 28, 1) 65%, rgba(6, 15, 28, 0) );
-  background-image: linear-gradient(-270deg, rgb(6, 15, 28, 1), rgb(41, 94, 168, 0));
+  background-image: linear-gradient(0deg, rgba(6, 15, 28, 0.8), rgb(41, 94, 168, 0));
+
+  @media screen and (min-width:991px) {
+    background-image: linear-gradient(-270deg, rgb(6, 15, 28, 1), rgb(41, 94, 168, 0));
+    
+  }
 }
 
-// 060f1c
-.hp-banner-image::after {
-  background: linear-gradient(90deg, rgba(6, 15, 28, 1) 0%, rgba(6, 15, 28, 0));
+.coupon-theme-slider-gradient:after {
+  background-image: linear-gradient(0deg, rgba(6, 15, 28, 0.8), rgb(41, 94, 168, 0));
 }
 
 .btn-primary:hover {
@@ -207,9 +215,11 @@ button:hover>.buy-icon {
   filter: invert(0%) sepia(4%) saturate(0%) hue-rotate(309deg) brightness(100%) contrast(107%);
 
 }
-button:hover>.video-icon{
+
+button:hover>.video-icon {
   filter: brightness(0) saturate(100%) invert(78%) sepia(0%) saturate(95%) hue-rotate(91deg) brightness(90%) contrast(87%);
 }
+
 .home-icon {
   filter: brightness(0) saturate(100%) invert(78%) sepia(0%) saturate(95%) hue-rotate(91deg) brightness(90%) contrast(87%);
 }
@@ -252,6 +262,46 @@ button:hover>.video-icon{
   border: 1px solid rgba(255, 255, 255, 0.18);
 }
 
+.anchor-menu {
+  z-index: 4;
+  top: 13%;
+
+}
+
+.mobile-anchor-menu {
+  @media screen and (max-width:1800px) {
+    display: block !important;
+  }
+
+  @media screen and(min-width:1800px) {
+    display: none;
+  }
+}
+
+.anchor-div-bg {
+  background-color: $dark !important;
+  opacity: 0.8;
+  @media screen and(min-width:1800px) {
+    background-color: transparent !important;
+    opacity: 1;
+  }
+}
+
+.desktop-anchor-menu {
+  @media screen and(min-width:1800px) {
+    display: block !important;
+  }
+}
+
+.desktop-anchor-menu-span {
+  display: none;
+  border: none !important;
+
+  @media screen and(min-width:1800px) {
+    display: block;
+  }
+}
+
 .carousel-indicators>[data-bs-target] {
   border: solid 1px transparent;
   border-radius: 12px;
@@ -277,4 +327,10 @@ button:hover>.video-icon{
     transform: scale(1.1, 1.1);
     transition: transform 0.3s linear;
   }
+}
+
+.active {
+  border: none !important;
+  border-right: 12px !important;
+  color: $primary !important;
 }

@@ -18,83 +18,78 @@
             <!-- Navbar -->
             <div id="navbarSupportedContent">
                 <ul class="navbar nav justify-content-md-evenly">
-                    <li class="nav-item d-none d-xxl-block mx-xl-3">
-                        <a href="#">Home</a>
+                    <li class="nav-item d-none d-xxl-block mx-xl-3 ">
+                        <a class=" nav-anchor" href="./homepage.php">Home</a>
                     </li>
                     <li class="nav-item d-none d-lg-block mx-lg-3 position-relative">
-                        <a id="coupon-theme-nav" class="coupon-theme nav-anchor" href="#">Coupon Theme <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
+                        <a id="coupon-theme-nav" href="./coupon-theme.php">Coupon Theme <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
                         </a>
                         <!-- Dropdown -->
                         <section class="position-absolute bg-transparent dropdown-menu d-none">
                             <div class=" d-flex justify-content-between bg-light p-3 rounded-4  ">
                                 <ul class="px-0">
                                     <li class="dropdown-item ">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/layout.svg" width="24" height="24" alt="Layout">layouts
+                                        <a class="nav-anchor" href="./coupon-theme.php#layouts"><img class="mx-3" src="./assets/images/icons/layout.svg" width="24" height="24" alt="Layout">layouts
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/homepage-style.svg" width="24" height="24" alt="Homepage">Homepage
+                                        <a class="nav-anchor" href="./coupon-theme.php#homepage-style"><img class="mx-3" src="./assets/images/icons/homepage-style.svg" width="24" height="24" alt="Homepage">Homepage
                                             styles
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/mobile-application.svg" width="24" height="24" alt="Mobile App">Mobile
-                                            Application
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/cashback-plugin.svg" width="24" height="24" alt="cashback-plugin">Cashback
+                                        <a class="nav-anchor" href="./coupon-theme.php#cashbackPlugin"><img class="mx-3" src="./assets/images/icons/cashback-plugin.svg" width="24" height="24" alt="cashback-plugin">Cashback
                                             Plugin
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Coupon
+                                        <a class="nav-anchor" href="./coupon-theme.php#coupon-feed"><img class="mx-3" src="./assets/images/icons/coupon-feeds.svg" width="24" height="24" alt="Down Arrow">Coupon
                                             Feeds
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/pre" width="24" height="24" alt="preset colors">Preset
+                                        <a class="nav-anchor" href="./coupon-theme.php#hd-graphics"><img class="mx-3" src="./assets/images/icons/preset-colors.svg" width="24" height="24" alt="preset colors">Preset
                                             Colors
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/widgets.svg" width="24" height="24" alt="widgets">Widgets
+                                        <a class="nav-anchor" href="./coupon-theme.php#widgets"><img class="mx-3" src="./assets/images/icons/widgets.svg" width="24" height="24" alt="widgets">Widgets
+                                        </a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a class="nav-anchor" href="./coupon-theme.php#customization"><img class="mx-3 px-0" src="./assets/images/icons/customization.svg" width="24" height="24" alt="customization">Customization
                                         </a>
                                     </li>
                                 </ul>
                                 <ul class="px-0">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3 px-0" src="./assets/images/icons/customization.svg" width="24" height="24" alt="customization">Customization
-                                        </a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/webpush-notification.svg" width="24" height="24" alt="webpush-notification">Web Push
+                                        <a class="nav-anchor" href="./coupon-theme.php#web-push-notification"><img class="mx-3" src="./assets/images/icons/webpush-notification.svg" width="24" height="24" alt="webpush-notification">Web Push
                                             Notification
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/printable-vouchers.svg" width="24" height="24" alt="printable-vouchers">Printable
+                                        <a class="nav-anchor" href="./coupon-theme.php#printable-vouchers"><img class="mx-3" src="./assets/images/icons/printable-vouchers.svg" width="24" height="24" alt="printable-vouchers">Printable
                                             Vouchers
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/multi-location.svg" width="24" height="24" alt="multi-location">Multi
+                                        <a class="nav-anchor" href="./coupon-theme.php#multi-location"><img class="mx-3" src="./assets/images/icons/multi-location.svg" width="24" height="24" alt="multi-location">Multi
                                             Location
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/social-media-optimized.svg" width="24" height="24" alt="social-media-optimized">Social
+                                        <a class="nav-anchor" href="./coupon-theme.php#social-media-optimized"><img class="mx-3" src="./assets/images/icons/social-media-optimized.svg" width="24" height="24" alt="social-media-optimized">Social
                                             media
                                             optimized
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/HD-graphics.svg" width="24" height="24" alt="HD-graphics">HD
+                                        <a class="nav-anchor" href="./coupon-theme.php#hd-graphics"><img class="mx-3" src="./assets/images/icons/HD-graphics.svg" width="24" height="24" alt="HD-graphics">HD
                                             Graphics
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/Others.svg" width="24" height="24" alt="Other">Other
+                                        <a class="nav-anchor" href="./coupon-theme.php#other-features"><img class="mx-3" src="./assets/images/icons/Others.svg" width="24" height="24" alt="Other">Other
                                             Features
                                         </a>
                                     </li>
@@ -103,59 +98,59 @@
                         </section>
                     </li>
                     <li class="nav-item d-none d-lg-block mx-lg-3 position-relative ">
-                        <a class="nav-anchor" href="#">Comparison Plugin <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
+                        <a class="nav-anchor" href="./comparison-plugin.php">Comparison Plugin <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
                         </a>
                         <!-- Dropdown -->
                         <section class="position-absolute bg-transparent dropdown-menu d-none">
                             <div class=" d-flex justify-content-between bg-light p-3 rounded-4 ">
                                 <ul class="px-0">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/layout.svg" width="24" height="24" alt="layout">Layouts
+                                        <a class="nav-anchor" href="./comparison-plugin.php#product-layouts"><img class="mx-3" src="./assets/images/icons/layout.svg" width="24" height="24" alt="layout">Product Layouts
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/homepage-style.svg" width="24" height="24" alt="homepage-style">Homepage
+                                        <a class="nav-anchor" href="./comparison-plugin.php#homepage-style"><img class="mx-3" src="./assets/images/icons/homepage-style.svg" width="24" height="24" alt="homepage-style">Homepage
                                             styles
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/android.svg" width="24" height="24" alt="android">Android
+                                        <a class="nav-anchor" href="./comparison-plugin.php#mobile-application"><img class="mx-3" src="./assets/images/icons/android.svg" width="24" height="24" alt="android">Android
                                             Application
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/cashback-plugin.svg" width="24" height="24" alt="cashback-plugin">Cashback
+                                        <a class="nav-anchor" href="./comparison-plugin.php#cashback-plugin"><img class="mx-3" src="./assets/images/icons/cashback-plugin.svg" width="24" height="24" alt="cashback-plugin">Cashback
                                             Plugin
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/HD-graphics.svg" width="24" height="24" alt="HD-graphics">HD
+                                        <a class="nav-anchor" href="./comparison-plugin.php#hd-graphics"><img class="mx-3" src="./assets/images/icons/HD-graphics.svg" width="24" height="24" alt="HD-graphics">HD
                                             Graphics
                                         </a>
                                     </li>
                                 </ul>
                                 <ul class="px-0">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3 me-3" src="./assets/images/icons/preset-colors.svg" width="24" height="24" alt="icon">Preset
+                                        <a class="nav-anchor" href="./comparison-plugin.php#hd-graphics"><img class="mx-3 me-3" src="./assets/images/icons/preset-colors.svg" width="24" height="24" alt="icon">Preset
                                             Colors
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/customization.svg" width="24" height="24" alt="customization">Customization
+                                        <a class="nav-anchor" href="./comparison-plugin.php#customization"><img class="mx-3" src="./assets/images/icons/customization.svg" width="24" height="24" alt="customization">Customization
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/social-media-optimized.svg" width="24" height="24" alt="social-media-optimized">Social
+                                        <a class="nav-anchor" href="./comparison-plugin.php#social-media-optimized"><img class="mx-3" src="./assets/images/icons/social-media-optimized.svg" width="24" height="24" alt="social-media-optimized">Social
                                             Media
                                             Optimized
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/widgets.svg" width="24" height="24" alt="widgets">Widgets
+                                        <a class="nav-anchor" href="./comparison-plugin.php#widgets"><img class="mx-3" src="./assets/images/icons/widgets.svg" width="24" height="24" alt="widgets">Widgets
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/Others.svg" width="24" height="24" alt="Others">Other
+                                        <a class="nav-anchor" href="./comparison-plugin.php#other-features"><img class="mx-3" src="./assets/images/icons/Others.svg" width="24" height="24" alt="Others">Other
                                             Featrues
                                         </a>
                                     </li>
@@ -164,49 +159,49 @@
                         </section>
                     </li>
                     <li class="nav-item d-none d-lg-block mx-lg-3 position-relative">
-                        <a class="nav-anchor" href="#">Cashback Plugin <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
+                        <a class="nav-anchor" href="./cashback-features.php">Cashback Plugin <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
                         </a>
                         <!-- Dropdown -->
                         <section class="position-absolute bg-transparent  dropdown-menu d-none ">
                             <div class=" d-flex justify-content-between p-3 rounded-4 bg-light">
                                 <ul class="px-0 ">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">How it
+                                        <a class="nav-anchor" href="./cashback-features.php#how-it-works"><img class="mx-3" src="./assets/images/icons/Demo.svg" width="24" height="24" alt="Down Arrow">How it
                                             works
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Reports
+                                        <a class="nav-anchor" href="./cashback-features.php#user-wise-clicks"><img class="mx-3" src="./assets/images/icons/backend-screenshots.svg" width="24" height="24" alt="Down Arrow">Reports
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Affiliate
+                                        <a class="nav-anchor" href="./cashback-features.php#affiliate-Program"><img class="mx-3" src="./assets/images/icons/afiliate-networks.svg" width="24" height="24" alt="Down Arrow">Affiliate
                                             Networks
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Rewards
+                                        <a class="nav-anchor" href="./cashback-features.php#rewards-bonuses"><img class="mx-3" src="./assets/images/icons/Rewards-bonuses.svg" width="24" height="24" alt="Down Arrow">Rewards
                                             & bonuses
                                         </a>
                                     </li>
                                 </ul>
                                 <ul class="px-0">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Insights
+                                        <a class="nav-anchor" href="./cashback-features.php#dashboard-insights"><img class="mx-3" src="./assets/images/icons/Insights.svg" width="24" height="24" alt="Down Arrow">Insights
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Cashback
+                                        <a class="nav-anchor" href="./cashback-features.php#cashback-formulae"><img class="mx-3" src="./assets/images/icons/Cashback-formulae.svg" width="24" height="24" alt="Down Arrow">Cashback
                                             Formulae
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Payout
+                                        <a class="nav-anchor" href="./cashback-features.php#payout-mangement"><img class="mx-3" src="./assets/images/icons/Payout-management.svg" width="24" height="24" alt="Down Arrow">Payout
                                             Management
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Login
+                                        <a class="nav-anchor" href="./cashback-features.php#login-prompts"><img class="mx-3" src="./assets/images/icons/Login-prompts.svg" width="24" height="24" alt="Down Arrow">Login
                                             Prompts
                                         </a>
                                     </li>
@@ -215,23 +210,23 @@
                         </section>
                     </li>
                     <li class="nav-item d-none d-xxl-block mx-xl-3 position-relative my-2">
-                        <a class="nav-anchor" href="#">Add Ons <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow"></a>
+                        <a class="nav-anchor" href="./add-ons.php">Add Ons <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow"></a>
                         <!-- Dropdown -->
                         <section class="position-absolute bg-transparent  dropdown-menu d-none ">
                             <div class=" d-flex justify-content-between bg-light p-3 rounded-4  dropdown-item ">
                                 <ul class="px-0">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Browser
+                                        <a class="nav-anchor" href="./add-ons.php#browser-extension"><img class="mx-3" src="./assets/images/icons/layout.svg" width="24" height="24" alt="Down Arrow">Browser
                                             Extension
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Android
+                                        <a class="nav-anchor" href="./add-ons.php#android-app"><img class="mx-3" src="./assets/images/icons/android.svg" width="24" height="24" alt="Down Arrow">Android
                                             Application
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">iOS
+                                        <a class="nav-anchor" href="./add-ons.php#android-app"><img class="mx-3" src="./assets/images/icons/IOS.svg" width="24" height="24" alt="Down Arrow">iOS
                                             Appplication
                                         </a>
                                     </li>
@@ -240,23 +235,23 @@
                         </section>
                     </li>
                     <li class="nav-item d-none d-xxl-block mx-xl-3 position-relative">
-                        <a class="nav-anchor" href="#">Demo <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
+                        <a class="nav-anchor" href="./live-demo.php">Demo <img src="./assets/images/icons/down-arrow.svg" alt="Down Arrow">
                         </a>
                         <!-- Dropdown -->
                         <section class="position-absolute bg-transparent dropdown-menu d-none">
                             <div class=" d-flex justify-content-between bg-light p-3 rounded-4 dropdown-item ">
                                 <ul class="px-0">
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/Demo.svg" width="24" height="24" alt="Down Arrow">Live Demo
+                                        <a class="nav-anchor" href="./live-demo.php"><img class="mx-3" src="./assets/images/icons/Demo.svg" width="24" height="24" alt="Down Arrow">Live Demo
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Backend
+                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/backend-screenshots.svg" width="24" height="24" alt="Down Arrow">Backend
                                             Screenshot
                                         </a>
                                     </li>
                                     <li class="dropdown-item">
-                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/down-arrow.svg" width="24" height="24" alt="Down Arrow">Youtube
+                                        <a class="nav-anchor" href="#"><img class="mx-3" src="./assets/images/icons/reports.svg" width="24" height="24" alt="Down Arrow">Youtube
                                             Tutorials
                                         </a>
                                     </li>
@@ -288,26 +283,26 @@
                                 <a href="#" class="text-custom-gray"><img class="mx-3 home-icon" src="./assets/images/icons/home-101.svg" width="24" height="24" alt="home"> Home</a>
                             </li>
                             <li class="sidebar-li my-3">
-                                <a class="text-custom-gray" href="#"> <img class="mx-3" src="./assets/images/icons/coupon theme.svg" width="24" height="24" alt="home"> Coupon
+                                <a class="text-custom-gray" href="./homepage.php"> <img class="mx-3" src="./assets/images/icons/coupon-theme.svg" width="24" height="24" alt="home"> Coupon
                                     Theme
                                 </a>
                             </li>
                             <li class="sidebar-li my-3">
-                                <a class="text-custom-gray" href="#"><img class="mx-3" src="./assets/images/icons/comparison-plugin.svg" width="24" height="24" alt="home">
+                                <a class="text-custom-gray" href="./comparison-plugin.php"><img class="mx-3" src="./assets/images/icons/comparison-plugin.svg" width="24" height="24" alt="home">
                                     Comparison Plugin
                                 </a>
                             </li>
                             <li class="sidebar-li my-3">
-                                <a class="text-custom-gray" href="#"><img class="mx-3" src="./assets/images/icons/Cashback-plugin-w.svg" width="24" height="24" alt="home">
+                                <a class="text-custom-gray" href="./cashback-features.php"><img class="mx-3" src="./assets/images/icons/Cashback-plugin-w.svg" width="24" height="24" alt="home">
                                     Cashback
                                 </a>
                             </li>
                             <li class="sidebar-li my-3">
-                                <a class="text-custom-gray" href="#"><img class="mx-3" src="./assets/images/icons/add_ons_new.svg" width="24" height="24" alt="home"> Add Ons
+                                <a class="text-custom-gray" href="./add-ons.php"><img class="mx-3" src="./assets/images/icons/add_ons_new.svg" width="24" height="24" alt="home"> Add Ons
                                 </a>
                             </li>
                             <li class="sidebar-li my-3">
-                                <a class="text-custom-gray" href="#"><img class="mx-3" src="./assets/images/icons/Demo.svg" width="24" height="24" alt="home"> Demo
+                                <a class="text-custom-gray" href="./live-demo.php"><img class="mx-3" src="./assets/images/icons/Demo.svg" width="24" height="24" alt="home"> Demo
                                 </a>
                             </li>
                             <li class="sidebar-li my-3">
